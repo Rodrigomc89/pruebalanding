@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>0819_LOAD SPORTS WORLD</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/foopicker.css">
+  <link href="css/style.css" rel="stylesheet">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js"></script>
+  <link rel="stylesheet" href="https://npmcdn.com/flickity@1.2/dist/flickity.min.css">
+  <script src="https://secure.adnxs.com/px?id=1143774&seg=18756315&t=1" type="text/javascript"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="content">
+      <div class="container">
+        <div class="slide-window">
+          <div class="slide-holder" id="slide-holder">
+            <div class="slide">
+            <a href="#formulario" data-ancla="formulario" class="header1 cta"><img class="img-q" src="img/img_carrousel_header_01.jpg" alt=""></a>
+            </div>
+            <div class="slide">
+               <span class="header2"><img class="img-reponsive" src="img/img_carrousel_header_02.jpg" alt=""></span>
+            </div>
+            <div class="slide">
+                <span class="header3"><img class="img-reponsive" src="img/img_carrousel_header_03.jpg" alt=""></span>
+            </div>
+          </div>
+          <div class="slide-nav" id="slide-nav"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- FORMULARIO -->
+    <div class="content" id="formulario">
+      <div class="content-box">
+        <h1>REGISTRATE GRATIS Y OBTÉN</h1>
+        <p class="title-formulario">3 CLASES GRATIS</p>
+      <div class="cd">
+      <form >
+          <div class="clm">
+            <div  class="form-item">
+                <input type="text" id="nickmane" name="nickmane" placeholder="Nickname" required>
+                <span class="error">Campo obligatorio</span>
+            </div>
+          </div>
+          <div class="clm">
+            <div  class="form-item">
+              <input type="text" id="phone" name="phone" placeholder="Telefóno" required>
+              <span class="error">Campo obligatorio</span>
+            </div>
+          </div>
+          <div class="clm">
+            <div  class="form-item">
+              <input type="text" id="name" name="name" placeholder="Nombre" required>
+              <span class="error">Campo obligatorio</span>
+            </div>
+          </div>
+          <div class="clm">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <span class="error">Campo obligatorio</span>
+          </div>
+          <div class="clm">
+            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required>
+            <span class="error">Campo obligatorio</span>
+          </div>
+          <div class="clm calendar">
+              <input type="text"  id="datepicker" name="fecha" placeholder="Fecha de nacimiento"/>
+          </div>
+          <div class="clm"></div>
+          <div class="clm">
+            <div class="d-flex">
+              <div class="radio">
+                <label for="myRadio">
+                  <input name="option" id="myRadio" value="34" type="radio">
+                  <i></i>Feminino
+                </label>
+              </div>
+              <div class="radio">
+                <label for="myRadio1">
+                  <input name="option" id="myRadio1" value="35" type="radio">
+                  <i></i>Mascolino
+                </label>
+              </div>
+            </div>
+          </div>
+          <button id="btnbuscar" type="submit" name="buscar" class="form-submit">ENVIAR</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  <!-- NUESTRAS CLASES -->
+  <section id="clases">
+    <div class="content">
+      <div class="content-box">
+        <h2 class="clases">NUESTRAS CLASES</h2>
+        <p class="text-titleClases">En equipo todos tenemos más fuerza.</p>
+          <div class="slideshow-container">
+            <div class="mySlidesUno fade">
+              <img src="img/beast.jpg" class="imgsliderclases">
+            </div>
+            <div class="mySlidesUno fade">
+              <img src="img/coworking.jpg" class="imgsliderclases">
+            </div>
+            <div class="mySlidesUno fade">
+              <img src="img/cycling.jpg" class="imgsliderclases">
+            </div>
+            <div class="mySlidesUno fade">
+              <img src="img/lounge.jpg" class="imgsliderclases">
+            </div>
+            <div class="mySlidesUno fade">
+              <img src="img/workout.jpg" class="imgsliderclases">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)"><img src="img/previo.png" class="prevslider" ></a>
+            <a class="next" onclick="plusSlides(1)"><img src="img/next.png" class="nextslider" ></a>
+          </div>
+          <div id="boxApp">
+            <div class="clm">
+                <h4 class="titleApp">RESERVA LAS CLASES CON</h4>
+                <p class="textApp">NUESTRA APP</p>
+            </div>
+            <div class="clm app">
+              <img src="img/app-google.png"  class="imgapp"alt="">
+            </div>
+            <div class="clm app">
+              <img src="img/app-store.png"  class="imgapp"alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- INFOMA MAPA -->
+  <section id="infoMapa">
+    <div class="content">
+      <div class="content-box">
+        <h4 class="clases">¿DÓNDE ESTAMOS?</h4>
+      <div class="cd" id="Deskt">
+        <div class="clm">
+          <ul class="ulInfo">
+            <p class="text-destino1" id="mapaUno">REVOLUCIÓN</p>
+            <li class="liInfo liInfoInconMapa">Av. Revolución núm. 756 Primer piso Nonoalco, 30700 Ciudad de México</li>
+            <li class="liInfo liInfoInconEmail">info@load.mx</li>
+            <li class="liInfo liInfoInconPhone">5523341234</li>
+          </ul>
+          <ul class="ulInfo" id="mapaDos">
+            <p class="text-destino2">POLANCO</p>
+            <li class="liInfo liInfoInconMapa">Miguel de Cervantes Saavedra 380, Miguel Hidalgo, 11500 Ciudad de México</li>
+            <li class="liInfo liInfoInconEmail">info@load.mx</li>
+            <li class="liInfo liInfoInconPhone">5550475975</li>
+          </ul>
+        </div>
+        <div class="clm">
+          <iframe id="iframeUno" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15058.547837106147!2d-99.1912547!3d19.3415536!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1970fda8a51dbfe1!2sSports+World+Patio+Revoluci%C3%B3n!5e0!3m2!1ses!2ses!4v1565115763012!5m2!1ses!2ses" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe id="iframeDos" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.3723498833097!2d-99.20471144960888!3d19.43950664543293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2021aef59acfd%3A0x2abef4ea128db2d0!2sSports+World!5e0!3m2!1ses!2ses!4v1565116085253!5m2!1ses!2ses" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="cd" id="Mobi">
+        <div class="clm">
+          <iframe id="iframeUno" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15058.547837106147!2d-99.1912547!3d19.3415536!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1970fda8a51dbfe1!2sSports+World+Patio+Revoluci%C3%B3n!5e0!3m2!1ses!2ses!4v1565115763012!5m2!1ses!2ses" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="clm">
+          <ul class="ulInfo">
+            <p class="text-destino1">REVOLUCIÓN</p>
+            <li class="liInfo liInfoInconMapa">Av. Revolución núm. 756 Primer piso Nonoalco, 30700 Ciudad de México</li>
+            <li class="liInfo liInfoInconEmail">info@load.mx</li>
+            <li class="liInfo liInfoInconPhone">5523341234</li>
+          </ul>
+        </div>
+        <div class="clm">
+          <iframe id="iframeDos" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.3723498833097!2d-99.20471144960888!3d19.43950664543293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2021aef59acfd%3A0x2abef4ea128db2d0!2sSports+World!5e0!3m2!1ses!2ses!4v1565116085253!5m2!1ses!2ses" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="clm infodos">
+          <ul class="ulInfo">
+            <p class="text-destino2">POLANCO</p>
+            <li class="liInfo liInfoInconMapa">Miguel de Cervantes Saavedra 380, Miguel Hidalgo, 11500 Ciudad de México</li>
+            <li class="liInfo liInfoInconEmail">info@load.mx</li>
+            <li class="liInfo liInfoInconPhone"><span class="text">5550475975</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- NUESTRAS CLASES -->
+  <section id="instalaciones">
+    <div class="content">
+      <div class="content-box">
+        <h3 class="clases">NUESTRAS INSTALACIONES</h3>
+        <div class="carousel js-flickity" data-flickity-options='{"imagesLoaded":"true", "watchCSS":"true" }'>
+          <div class="carousel-cell">
+            <img src="img/01.jpg">
+          </div>
+          <div class="carousel-cell">
+            <img src="img/02.jpg" class="img02">
+          </div>
+          <div class="carousel-cell">
+            <img src="img/03.jpg">
+          </div>
+          <div class="carousel-cell">
+            <img src="img/04.jpg">
+          </div>
+          <div class="carousel-cell">
+            <img src="img/05.jpg">
+          </div>
+        </div>
+        </div>
+        <div  class="boxVideo">
+          <div class="video-wrapper">
+              <video  poster="img/poster.png" class="imgposter" loop controls>
+                  <source src="video/video.mp4" type="video/mp4">
+              </video>
+          </div>
+        </div>
+        <div class="content-box">
+          <div class="cd">
+              <a href="#formulario" class="cta" data-ancla="formulario">  <button id="registrase"  class="form-registrase">REGÍSTRATE</button></a>
+          </div>
+        </div>
+    </div>
+  </section>
+  <footer>
+    <div class="content">
+      <div class="content-box">
+        <div class="boxredes">
+          <div class="redes">
+          <a href="https://www.instagram.com/LoadTrainingLab/" target="_blank"><img src="img/iconinsta.png" class="redessociales" alt=""></a>
+          </div>
+          <div class="redes">
+            <a href="https://www.facebook.com/LoadTrainingLab/" target="_blank"><img src="img/iconfacebook.png" class="redessociales" alt=""></a>
+          </div>
+        </div>
+        <div class="cd">
+        <a href="https://load.mx/#/legal" target="_blank"><p class="text-legal">Aviso de privacidad | Téminos y condiciones | Reglamento</p></a>
+        <p class="text-legal">2019 LOAD Todos los derechosreservados </p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+<script type="text/javascript">
+
+    var slideIndexUno = 1;
+    showSlides(slideIndexUno);
+
+    function plusSlides(n) {
+    showSlides(slideIndexUno += n);
+    }
+
+    function currentSlide(n) {
+    showSlides(slideIndexUno = n);
+    }
+
+    function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlidesUno");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndexUno = 1}
+    if (n < 1) {slideIndexUno = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        //dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndexUno-1].style.display = "block";
+    dots[slideIndexUno-1].className += " active";
+    }
+
+
+
+</script>
+<script type="text/javascript" src="js/foopicker.js"></script>
+<script src="js/function.js"></script>
+
+</body>
+</html>
